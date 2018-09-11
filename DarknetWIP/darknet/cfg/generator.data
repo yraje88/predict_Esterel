@@ -1,0 +1,2 @@
+output = data/cifar/gan_train
+backup = backup/gan

@@ -1,0 +1,19 @@
+module ensemble:
+
+procedure tryBackup()();
+procedure predictInput()();
+procedure userInput()();
+
+function maxEpochs(integer): integer;
+ 
+% main train thread
+var msg: string in
+    loop
+        pause;     
+        call userInput()();
+        pause;
+        call predictInput()();
+    end loop;
+end var
+
+end module

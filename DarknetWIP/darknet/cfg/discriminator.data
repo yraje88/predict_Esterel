@@ -1,0 +1,7 @@
+classes=2
+train  = data/cifar/gan_train_2.list
+valid  = data/cifar/gan_test.list
+gen    = data/cifar/gan_gen.list
+labels = data/cifar/gan_labels.txt
+backup = backup/gan
+top=2
